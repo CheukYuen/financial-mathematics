@@ -1,0 +1,89 @@
+{
+    "meta": {
+      "title": "Capital Market Expectations (CME) - China 2025Q4",
+      "description": "中性场景 (μ_base) 与 bear / bull 情景带宽，用于资产配置引擎初始假设。",
+      "as_of": "2025-11-03",
+      "currency": "CNY",
+      "source": [
+        "中债收益率曲线 (10Y: ~1.8%)",
+        "沪深300 股息率: 2.26%",
+        "沪深300 盈利增速: 3.1%",
+        "上交所 C-REITs 派息率: 5.7%",
+        "AA 企业债利差: 0.8–0.9%",
+        "黄金实利率: 美债10Y TIPS ~1.82%"
+      ]
+    },
+    "assets": [
+      "cash","short_bond","credit","long_bond",
+      "equity_div","equity_growth","equity_theme","reits",
+      "gold","commodity","overseas"
+    ],
+    "mu_base": {
+      "cash": 0.018,
+      "short_bond": 0.023,
+      "credit": 0.031,
+      "long_bond": 0.019,
+      "equity_div": 0.058,
+      "equity_growth": 0.068,
+      "equity_theme": 0.073,
+      "reits": 0.065,
+      "gold": 0.020,
+      "commodity": 0.025,
+      "overseas": 0.050
+    },
+    "mu_scn": {
+      "bear": {
+        "cash": 0.016,
+        "short_bond": 0.021,
+        "credit": 0.026,
+        "long_bond": 0.017,
+        "equity_div": 0.046,
+        "equity_growth": 0.054,
+        "equity_theme": 0.058,
+        "reits": 0.052,
+        "gold": 0.015,
+        "commodity": 0.020,
+        "overseas": 0.045
+      },
+      "base": {
+        "cash": 0.018,
+        "short_bond": 0.023,
+        "credit": 0.031,
+        "long_bond": 0.019,
+        "equity_div": 0.058,
+        "equity_growth": 0.068,
+        "equity_theme": 0.073,
+        "reits": 0.065,
+        "gold": 0.020,
+        "commodity": 0.025,
+        "overseas": 0.050
+      },
+      "bull": {
+        "cash": 0.020,
+        "short_bond": 0.025,
+        "credit": 0.036,
+        "long_bond": 0.021,
+        "equity_div": 0.070,
+        "equity_growth": 0.082,
+        "equity_theme": 0.088,
+        "reits": 0.078,
+        "gold": 0.030,
+        "commodity": 0.030,
+        "overseas": 0.055
+      }
+    },
+    "notes": {
+      "cash": "近似无风险利率（货基/政策利率）",
+      "short_bond": "1–3Y 国债曲线点位，利率小幅回归",
+      "credit": "国债+信用利差 (IG 3–5Y)，取中性区间",
+      "long_bond": "7–10Y 国债曲线中性点位",
+      "equity_div": "股息率 + 盈利增速 + 估值回归（价值/分红）",
+      "equity_growth": "成长股：盈利增速更高 + 估值修复",
+      "equity_theme": "行业/主题：高β资产，带宽更宽",
+      "reits": "C-REITs: 分红率 + 租金增长 – 费用",
+      "gold": "通胀项 – β × 实际利率；当前实利偏高为逆风",
+      "commodity": "通胀 + 美元/库存因素，取中性",
+      "overseas": "发达市场股：股息 + 盈利增速中性"
+    }
+  }
+  
