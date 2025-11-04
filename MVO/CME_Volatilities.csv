@@ -1,0 +1,12 @@
+,sigma
+cash,0.005
+short_bond,0.015
+credit,0.03
+long_bond,0.04
+equity_div,0.12
+equity_growth,0.15
+equity_theme,0.18
+reits,0.08
+gold,0.1
+commodity,0.14
+overseas,0.13
