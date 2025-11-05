@@ -1,0 +1,4 @@
+view_id,view_name,Q_expected_excess_return(%),confidence(0-1),P_weights_JSON
+1,REITs 相对信用提升,0.3,0.6,"{""REITs"":1,""Credit"":-1}"
+2,分红优于成长,0.2,0.5,"{""Equity Div"":1,""Equity Growth"":-1}"
+3,海外小幅提升,0.1,0.3,"{""Overseas"":1}"

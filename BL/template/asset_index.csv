@@ -1,0 +1,12 @@
+idx,asset_code,display_name_cn,category_4,liquidity_SLA,is_liquidity_bucket,notes
+1,Cash,现金,现金类,T+0/T+1,1,应急桶（流动性红线）
+2,Short Bond,短债,固收类,T+7,1,一年内刚性支出（流动性红线）
+3,Credit,信用债,固收类,月度或更长,0,固收+，收益核心
+4,Long Bond,长债,固收类,月度或更长,0,久期分散
+5,Equity Div,分红权益,股票类,季度,0,红利因子
+6,Equity Growth,成长权益,股票类,季度,0,成长因子
+7,Equity Theme,主题/行业,股票类,季度,0,行业/主题暴露
+8,REITs,REITs,另类类,月度或更长,0,主要收益来源
+9,Gold,黄金,另类类,T+1~T+3,0,避险锚
+10,Commodity,商品,另类类,T+1~T+3,0,周期性较强
+11,Overseas,海外权益,股票类,T+1~T+3,0,全球分散
