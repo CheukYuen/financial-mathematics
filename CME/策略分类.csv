@@ -1,0 +1,24 @@
+资产大类,策略一级分类,指数名称,指数代码
+现金类,现金类,货币市场基金指数,885009.WI
+固收类,纯债,中长期纯债型基金指数,885008.WI
+固收类,非标固收,,
+固收类,固收+（股<20%）,债券型基金指数,885005.WI
+固收类,海外债券投资,成熟市场债券 - Bloomberg Barclays Global Aggregate Index,LEGATRUU Index
+固收类,海外债券投资,成熟市场高收益债券 Bloomberg Barclays Global High Yield Index,LG30TRUU Index
+固收类,海外债券投资,亚洲债 JP Morgan Asia Credit Index (JACI) Non-Investment Grade Index,JACINGTR Index
+固收类,海外债券投资,中资美元债 iBoxx中资美元债投资级指数50%+ iBoxx中资美元债高收益级指数50%,0.5* IBXXAJ03 Index+ 0.5* IBXXAJ32 Index
+股票类,股债混合（股占比20%-50%）,偏债混合型基金指数,885003.WI
+股票类,海外股债混合,MSCI AC全球指数* 50% + 成熟市场债券* 50%,0.5*LEGATRUU Index + 0.5* MXWD Index
+股票类,股票型,1/3朝阳私募指数_股票多头+1/3朝阳私募指数_股票多空+1/3偏股混合型基金指数,
+股票类,海外股票投资,全球发达市场股票-MSCI环球指数,MXW0 Index
+股票类,海外股票投资,港股-恒生指数,HSI Index
+股票类,海外股票投资,环球股票-MSCI AC全球指数,MXWD Index
+股票类,海外股票投资,新兴市场MSCI 新兴市场指数,MXEF Index
+另类,商品及宏观策略,1/4GC.CMX+1/4CL.NYM+1/4朝阳私募指数_管理期货+1/4朝阳私募指数_宏观策略,
+另类,量化对冲,朝阳私募指数_股票中性,
+另类,房地产股权,,
+另类,PE/VC股权,,
+另类,海外另类,HFRI宏观策略回报指数 HFRI Macro (Total) Index,HFRIMI Index
+另类,海外另类,HFRI 股票市场中性策略指数 HFRI EH: Equity Market Neutral Index,HFRIEMNI Index
+另类,海外另类,HFRI困境重组指数HFRI ED Distressed/Restructuring Index,HFRIDS Index
+另类,海外另类,富时NAREIT指数,FNRE Index
